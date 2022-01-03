@@ -8,7 +8,7 @@
     
     body{
         height: 100vh;
-        background-image: url(imagens/fundo3.png);
+        background-image: url(fundo3.png);
         background-repeat: repeat;
         background-size: cover;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +22,7 @@
         padding: 25px;
         border-radius: 10px;
         width: 80%;
-        background-image: url(imagens/logo4.svg);
+        background-image: url(logo4.svg);
         height: 100vh;
         margin-bottom: 20px;
         
@@ -83,14 +83,14 @@
     }
     
     #txtUser{
-        background-image: url(imagens/user.svg);
+        background-image: url(user.svg);
         background-repeat: repeat-y;
         height: 30px;
     
     }
     
     #txtPass{
-        background-image: url(imagens/lock.svg);
+        background-image: url(lock.svg);
         background-repeat: repeat-y;
         height: 30px;
         background-position: left;
@@ -187,7 +187,7 @@
 
 body{
     height: 100vh;
-    background-image: url(imagens/fundo3.png);
+    background-image: url(fundo3.png);
     background-repeat: repeat;
     background-size: cover;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -201,7 +201,7 @@ section{
     padding: 25px;
     border-radius: 10px;
     width: 60%;
-    background-image: url(imagens/logo4.svg);
+    background-image: url(logo4.svg);
     height: 100vh;
     margin-bottom: 20px;
     
@@ -263,14 +263,14 @@ input:active, input:focus{
 }
 
 #txtUser{
-    background-image: url(imagens/user.svg);
+    background-image: url(user.svg);
     background-repeat: repeat-y;
     height: 30px;
 
 }
 
 #txtPass{
-    background-image: url(imagens/lock.svg);
+    background-image: url(lock.svg);
     background-repeat: repeat-y;
     height: 30px;
     background-position: left;
@@ -367,7 +367,7 @@ img{
     
     body{
         height: 100vh;
-        background-image: url(imagens/fundo3.png);
+        background-image: url(fundo3.png);
         background-repeat: repeat;
         background-size: cover;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -381,7 +381,7 @@ img{
         padding: 25px;
         border-radius: 10px;
         width: 60%;
-        background-image: url(imagens/logo4.svg);
+        background-image: url(logo4.svg);
         height: 100vh;
         margin-bottom: 20px;
         
@@ -443,14 +443,14 @@ img{
     }
     
     #txtUser{
-        background-image: url(imagens/user.svg);
+        background-image: url(user.svg);
         background-repeat: repeat-y;
         height: 30px;
     
     }
     
     #txtPass{
-        background-image: url(imagens/lock.svg);
+        background-image: url(lock.svg);
         background-repeat: repeat-y;
         height: 30px;
         background-position: left;
@@ -547,7 +547,7 @@ img{
     
     body{
         height: 100vh;
-        background-image: url(imagens/fundo3.png);
+        background-image: url(fundo3.png);
         background-repeat: repeat;
         background-size: cover;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -561,7 +561,7 @@ img{
         padding: 25px;
         border-radius: 10px;
         width: 45%;
-        background-image: url(imagens/logo4.svg);
+        background-image: url(logo4.svg);
         height: 90vh;
         margin-bottom: 20px;
         
@@ -623,14 +623,14 @@ img{
     }
     
     #txtUser{
-        background-image: url(imagens/user.svg);
+        background-image: url(user.svg);
         background-repeat: repeat-y;
         height: 30px;
     
     }
     
     #txtPass{
-        background-image: url(imagens/lock.svg);
+        background-image: url(lock.svg);
         background-repeat: repeat-y;
         height: 30px;
         background-position: left;
@@ -728,7 +728,7 @@ img{
     
     body{
         height: 100vh;
-        background-image: url(imagens/fundo3.png);
+        background-image: url(fundo3.png);
         background-repeat: repeat;
         background-size: cover;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -742,7 +742,7 @@ img{
         padding: 25px;
         border-radius: 10px;
         width: 30%;
-        background-image: url(imagens/logo4.svg);
+        background-image: url(logo4.svg);
         height: 90vh;
         margin-bottom: 20px;
         
@@ -804,14 +804,14 @@ img{
     }
     
     #txtUser{
-        background-image: url(imagens/user.svg);
+        background-image: url(user.svg);
         background-repeat: repeat-y;
         height: 30px;
     
     }
     
     #txtPass{
-        background-image: url(imagens/lock.svg);
+        background-image: url(lock.svg);
         background-repeat: repeat-y;
         height: 30px;
         background-position: left;
