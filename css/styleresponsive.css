@@ -1,0 +1,899 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        height: 100vh;
+        background-image: url(/imagens/fundo3.png);
+        background-repeat: repeat;
+        background-size: cover;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    
+    
+    section{
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+        width: 80%;
+        background-image: url(/imagens/logo4.svg);
+        height: 100vh;
+        margin-bottom: 20px;
+        
+    }
+    
+    
+    
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    
+    .container header{
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    header img{
+        display: block;
+        height: 50px;
+        width: 140px;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label{
+        font-size: 0.95em;
+        margin-bottom: 10px;
+    }
+    
+    input{
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #808080;
+        padding: 10px;
+        margin-bottom: 25px;
+        padding-left:33px ;
+    
+        
+    }
+    
+    input:active, input:focus{
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid orange;
+        outline: none;
+    }
+    
+    #txtUser{
+        background-image: url(/imagens/user.svg);
+        background-repeat: repeat-y;
+        height: 30px;
+    
+    }
+    
+    #txtPass{
+        background-image: url(/imagens/lock.svg);
+        background-repeat: repeat-y;
+        height: 30px;
+        background-position: left;
+    }
+    
+    
+    .forgetPass{
+        text-align: end;
+        font-size: 0.8em;
+        margin-bottom: 20px;
+        margin-top: -20px;
+        
+    }
+    
+    .forgetPass a{
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .forgetPass a:hover{
+        color: orange;
+        transition: all 0.1s ease-in;
+    }
+    
+    #btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 11px;
+        border-radius: 8px;
+        border: none;
+        background: #c2ff34;
+        color: rgb(0, 5, 0);
+        font-size: 0.9em;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+    
+    
+    #btn:hover{
+        transform: scale(1.03);
+        box-shadow: 1px 1px 5px rgb(136, 221, 97);
+        transition: all 0.2s ease-out;
+    }
+    
+    #altLogin p{
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+        color: gray;
+    }
+    
+    .images{
+       margin-left: 10px;
+    }
+    
+    img{
+        display: inline;
+        margin: 10px;
+        width: 25px;
+        height: 25px;
+        margin-bottom: 30px;
+        cursor: pointer;
+        
+    }
+    
+    .register p{
+        text-align: center;
+        font-size: 0.9em;
+        color: gray;
+    }
+    
+    .register p a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .register p a:hover{
+        color: orange;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(/imagens/fundo3.png);
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+section{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 60%;
+    background-image: url(/imagens/logo4.svg);
+    height: 100vh;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.container header{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+header img{
+    display: block;
+    height: 60px;
+    width: 280px;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 0.95em;
+    margin-bottom: 10px;
+}
+
+input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #808080;
+    padding: 10px;
+    margin-bottom: 25px;
+    padding-left:33px ;
+
+    
+}
+
+input:active, input:focus{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid orange;
+    outline: none;
+}
+
+#txtUser{
+    background-image: url(/imagens/user.svg);
+    background-repeat: repeat-y;
+    height: 30px;
+
+}
+
+#txtPass{
+    background-image: url(/imagens/lock.svg);
+    background-repeat: repeat-y;
+    height: 30px;
+    background-position: left;
+}
+
+
+.forgetPass{
+    text-align: end;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    
+}
+
+.forgetPass a{
+    text-decoration: none;
+    color: gray;
+}
+
+.forgetPass a:hover{
+    color: orange;
+    transition: all 0.1s ease-in;
+}
+
+#btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+    border-radius: 8px;
+    border: none;
+    background: #c2ff34;
+    color: rgb(0, 5, 0);
+    font-size: 0.9em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+#btn:hover{
+    transform: scale(1.03);
+    box-shadow: 1px 1px 5px rgb(136, 221, 97);
+    transition: all 0.2s ease-out;
+}
+
+#altLogin p{
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.images{
+   display: flex;
+   justify-content: space-around;
+}
+
+img{
+    display: inline;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+}
+
+.register p{
+    text-align: center;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.register p a{
+    text-decoration: none;
+    color: black;
+}
+
+.register p a:hover{
+    color: orange;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        height: 100vh;
+        background-image: url(/imagens/fundo3.png);
+        background-repeat: repeat;
+        background-size: cover;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    
+    
+    section{
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+        width: 60%;
+        background-image: url(/imagens/logo4.svg);
+        height: 100vh;
+        margin-bottom: 20px;
+        
+    }
+    
+    
+    
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    
+    .container header{
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    header img{
+        display: block;
+        height: 70px;
+        width: 280px;
+        margin: auto;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label{
+        font-size: 0.95em;
+        margin-bottom: 10px;
+    }
+    
+    input{
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #808080;
+        padding: 10px;
+        margin-bottom: 25px;
+        padding-left:33px ;
+    
+        
+    }
+    
+    input:active, input:focus{
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid orange;
+        outline: none;
+    }
+    
+    #txtUser{
+        background-image: url(/imagens/user.svg);
+        background-repeat: repeat-y;
+        height: 30px;
+    
+    }
+    
+    #txtPass{
+        background-image: url(/imagens/lock.svg);
+        background-repeat: repeat-y;
+        height: 30px;
+        background-position: left;
+    }
+    
+    
+    .forgetPass{
+        text-align: end;
+        font-size: 0.8em;
+        margin-bottom: 20px;
+        margin-top: -20px;
+        
+    }
+    
+    .forgetPass a{
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .forgetPass a:hover{
+        color: orange;
+        transition: all 0.1s ease-in;
+    }
+    
+    #btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 11px;
+        border-radius: 8px;
+        border: none;
+        background: #c2ff34;
+        color: rgb(0, 5, 0);
+        font-size: 0.9em;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+    
+    
+    #btn:hover{
+        transform: scale(1.03);
+        box-shadow: 1px 1px 5px rgb(136, 221, 97);
+        transition: all 0.2s ease-out;
+    }
+    
+    #altLogin p{
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+        color: gray;
+    }
+    
+    .images{
+       display: flex;
+       justify-content: space-around;
+    }
+    
+    img{
+        display: inline;
+        margin: 10px;
+        width: 35px;
+        height: 35px;
+        margin-bottom: 30px;
+        cursor: pointer;
+        
+    }
+    
+    .register p{
+        text-align: center;
+        font-size: 0.9em;
+        color: gray;
+    }
+    
+    .register p a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .register p a:hover{
+        color: orange;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        height: 100vh;
+        background-image: url(/imagens/fundo3.png);
+        background-repeat: repeat;
+        background-size: cover;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    
+    
+    section{
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+        width: 45%;
+        background-image: url(/imagens/logo4.svg);
+        height: 90vh;
+        margin-bottom: 20px;
+        
+    }
+    
+    
+    
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    
+    .container header{
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    header img{
+        display: block;
+        height: 70px;
+        width: 280px;
+        margin: auto;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label{
+        font-size: 0.95em;
+        margin-bottom: 10px;
+    }
+    
+    input{
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #808080;
+        padding: 15px;
+        margin-bottom: 25px;
+        padding-left:33px ;
+    
+        
+    }
+    
+    input:active, input:focus{
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid orange;
+        outline: none;
+    }
+    
+    #txtUser{
+        background-image: url(/imagens/user.svg);
+        background-repeat: repeat-y;
+        height: 30px;
+    
+    }
+    
+    #txtPass{
+        background-image: url(/imagens/lock.svg);
+        background-repeat: repeat-y;
+        height: 30px;
+        background-position: left;
+    }
+    
+    
+    .forgetPass{
+        text-align: end;
+        font-size: 0.8em;
+        margin-bottom: 20px;
+        margin-top: -20px;
+        
+    }
+    
+    .forgetPass a{
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .forgetPass a:hover{
+        color: orange;
+        transition: all 0.1s ease-in;
+    }
+    
+    #btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 11px;
+        border-radius: 8px;
+        border: none;
+        background: #c2ff34;
+        color: rgb(0, 5, 0);
+        font-size: 0.9em;
+        margin-bottom: 60px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+    
+    
+    #btn:hover{
+        transform: scale(1.03);
+        box-shadow: 1px 1px 5px rgb(136, 221, 97);
+        transition: all 0.2s ease-out;
+    }
+    
+    #altLogin p{
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 30px;
+        color: gray;
+    }
+    
+    .images{
+       display: flex;
+       justify-content: space-around;
+    }
+    
+    img{
+        display: inline;
+        margin: 10px;
+        width: 45px;
+        height: 45px;
+        margin-bottom: 60px;
+        cursor: pointer;
+        
+    }
+    
+    .register p{
+        text-align: center;
+        font-size: 0.9em;
+        color: gray;
+    }
+    
+    .register p a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .register p a:hover{
+        color: orange;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        height: 100vh;
+        background-image: url(/imagens/fundo3.png);
+        background-repeat: repeat;
+        background-size: cover;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    
+    
+    section{
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+        width: 30%;
+        background-image: url(/imagens/logo4.svg);
+        height: 90vh;
+        margin-bottom: 20px;
+        
+    }
+    
+    
+    
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    
+    .container header{
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    header img{
+        display: block;
+        height: 70px;
+        width: 280px;
+        margin: auto;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label{
+        font-size: 0.95em;
+        margin-bottom: 10px;
+    }
+    
+    input{
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #808080;
+        padding: 15px;
+        margin-bottom: 25px;
+        padding-left:33px ;
+    
+        
+    }
+    
+    input:active, input:focus{
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid orange;
+        outline: none;
+    }
+    
+    #txtUser{
+        background-image: url(/imagens/user.svg);
+        background-repeat: repeat-y;
+        height: 30px;
+    
+    }
+    
+    #txtPass{
+        background-image: url(/imagens/lock.svg);
+        background-repeat: repeat-y;
+        height: 30px;
+        background-position: left;
+    }
+    
+    
+    .forgetPass{
+        text-align: end;
+        font-size: 0.8em;
+        margin-bottom: 20px;
+        margin-top: -20px;
+        
+    }
+    
+    .forgetPass a{
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .forgetPass a:hover{
+        color: orange;
+        transition: all 0.1s ease-in;
+    }
+    
+    #btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 11px;
+        border-radius: 8px;
+        border: none;
+        background: #c2ff34;
+        color: rgb(0, 5, 0);
+        font-size: 0.9em;
+        margin-bottom: 60px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+    
+    
+    #btn:hover{
+        transform: scale(1.03);
+        box-shadow: 1px 1px 5px rgb(136, 221, 97);
+        transition: all 0.2s ease-out;
+    }
+    
+    #altLogin p{
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 30px;
+        color: gray;
+    }
+    
+    .images{
+       display: flex;
+       justify-content: space-around;
+    }
+    
+    img{
+        display: inline;
+        margin: 10px;
+        width: 45px;
+        height: 45px;
+        margin-bottom: 60px;
+        cursor: pointer;
+        
+    }
+    
+    .register p{
+        text-align: center;
+        font-size: 0.9em;
+        color: gray;
+    }
+    
+    .register p a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .register p a:hover{
+        color: orange;
+    }
+}
