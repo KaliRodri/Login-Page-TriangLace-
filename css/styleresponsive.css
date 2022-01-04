@@ -23,7 +23,7 @@
         border-radius: 10px;
         width: 80%;
         background-image: url(logo4.svg);
-        height: 100vh;
+        height: 95vh;
         margin-bottom: 20px;
         
     }
@@ -51,7 +51,7 @@
     header img{
         display: block;
         height: 50px;
-        width: 140px;
+        width: 210px;
     }
     
     form{
@@ -147,11 +147,11 @@
     }
     
     .images{
-       margin-left: 10px;
+       margin-left: 45px;
     }
     
     img{
-        display: inline;
+        display: inline-flex;
         margin: 10px;
         width: 25px;
         height: 25px;
